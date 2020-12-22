@@ -1,20 +1,20 @@
 # ESS-DIVE File-level Metadata Reporting Format
 
 File-level metadata provides granular information at the data file level to enable comparison of data files within a data package and the ability to search for and locate files across the data collection. The recommended file-level metadata (FLMD) schema will describe the contents, scope, and structure of the data file within the ESS-DIVE repository.  This metadata is fully consistent with and augments the metadata collected to describe each data package.  
- 
+
 ## Getting started  
 
 Instructions for how to use this reporting format:  
 
-&nbsp;&nbsp;&nbsp;&nbsp;- [File-level metadata reporting format instructions](flmd_instructions.md)
+&nbsp;&nbsp;&nbsp;&nbsp;* [File-level metadata reporting format instructions](flmd_instructions.md)
 
 Other documents:  
 
-&nbsp;&nbsp;&nbsp;&nbsp;- [File-level metadata quick guide](flmd_quick_guide.md)   
-&nbsp;&nbsp;&nbsp;&nbsp;- [File-level metadata template](flmd_template.xlsx)  
+&nbsp;&nbsp;&nbsp;&nbsp;* [File-level metadata quick guide](flmd_quick_guide.md)   
+&nbsp;&nbsp;&nbsp;&nbsp;* [File-level metadata template](flmd_template.xlsx)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- [Includes example](flmd_template_example.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;- CSV Data Dictionary  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Includes [instructions](/CSV_dd/CSV_dd_instructions.md), [template](/CSV_dd/CSV_dd_template.xlsx), and [example](/CSV_dd/CSV_dd_example.md)
+&nbsp;&nbsp;&nbsp;&nbsp;* CSV Data Dictionary  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* Includes [instructions](CSV_dd/CSV_dd_instructions.md), [template](CSV_dd/CSV_dd_template.xlsx), and [example](CSV_dd/CSV_dd_example.md)
 
 
 ## How to contribute  
@@ -42,7 +42,6 @@ Funding for the development of ESS-DIVE File-level Metadata Reporting Format was
 Velliquette T ; Welch J ; Crow M ; Devarakonda R ; Heinz S ; Crystal-Ornelas R (2020): ESS-DIVE Reporting Format for File-level Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem. DOI: 10.15485/1734840
 
 ## References
-
 EDI (Environmental Data Initiative). 2019. Five phases of data publishing - Phase 2: Format and QC data
 tables. https://environmentaldatainitiative.org/five-phases-of-data-publishing/phase-2/
 
