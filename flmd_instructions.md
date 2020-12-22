@@ -12,9 +12,9 @@
 
 **Notes**
 
-* Fields common to ESS-DIVE Package Level Metadata are consistent in format structure.
+* Fields common to ESS-DIVE Package Level Metadata are consistent in format structure.  
 
-**Contents of the Elements **  
+**Contents of the Elements**  
 
 * File_Name  
 * File_Description  
