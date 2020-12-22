@@ -1,10 +1,8 @@
-# ESS-DIVE File-level Metadata Reporting Format
+# ESS-DIVE File-level Metadata Reporting Format Instructions
 
-## Instructions
-
-1. Create file-level metadata for each data file using the template.
-&nbsp;&nbsp;&nbsp;&nbsp;a. Start new row for each data file  
-&nbsp;&nbsp;&nbsp;&nbsp;b. Use "*" wildcard when the FLMD applies to multiple files. 
+1. Create file-level metadata for each data file using the template.  
+&nbsp;&nbsp;&nbsp;&nbsp;a. Start new row for each data file    
+&nbsp;&nbsp;&nbsp;&nbsp;b. Use "\*" wildcard when the FLMD applies to multiple files.   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; i. For example - the same FLMD applies to all soil core files in this data package - "soil_cores_*.csv"
 
 2. Follow the instructions in the [FLMD quick guide](flmd_quick_guide.md).
