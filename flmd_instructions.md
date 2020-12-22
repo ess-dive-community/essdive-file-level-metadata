@@ -1,4 +1,6 @@
-# ESS-DIVE File-level Metadata Reporting Format Instructions
+# ESS-DIVE File-level Metadata Reporting Format 
+
+# Instructions
 
 1. Create file-level metadata for each data file using the template.  
 &nbsp;&nbsp;&nbsp;&nbsp;a. Start new row for each data file    
