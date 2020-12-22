@@ -6,15 +6,15 @@ File-level metadata provides granular information at the data file level to enab
 
 Instructions for how to use this reporting format:  
 
-&nbsp;&nbsp;&nbsp;&nbsp;* [File-level metadata reporting format instructions](flmd_instructions.md)
+* [File-level metadata reporting format instructions](flmd_instructions.md)
 
 Other documents:  
 
-&nbsp;&nbsp;&nbsp;&nbsp;* [File-level metadata quick guide](flmd_quick_guide.md)   
-&nbsp;&nbsp;&nbsp;&nbsp;* [File-level metadata template](flmd_template.xlsx)  
+* [File-level metadata quick guide](flmd_quick_guide.md)   
+* [File-level metadata template](flmd_template.xlsx)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- [Includes example](flmd_template_example.md)  
-&nbsp;&nbsp;&nbsp;&nbsp;* CSV Data Dictionary  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* Includes [instructions](CSV_dd/CSV_dd_instructions.md), [template](CSV_dd/CSV_dd_template.xlsx), and [example](CSV_dd/CSV_dd_example.md)
+* CSV Data Dictionary  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Includes [instructions](CSV_dd/CSV_dd_instructions.md), [template](CSV_dd/CSV_dd_template.xlsx), and [example](CSV_dd/CSV_dd_example.md)
 
 
 ## How to contribute  
