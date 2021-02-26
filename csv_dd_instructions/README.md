@@ -2,7 +2,7 @@
 
 ## Instructions
 
-1. Create a CSV data dictionary using the [CSV\_dd\_template](https://github.com/ess-dive-community/essdive-file-level-metadata/tree/3acd84067cf980484b4b86e95dbdcace42db3796/CSV_dd/CSV_dd_template.xlsx)  
+1. Create a CSV data dictionary using the [CSV\_dd\_template](https://github.com/ess-dive-community/essdive-file-level-metadata/tree/3acd84067cf980484b4b86e95dbdcace42db3796/CSV_dd/CSV_dd_template.csv)  
 2. See the [CSV\_dd\_quick\_guide](csv_dd_quick_guide.md) for more details about completing the template  
 3. Enter a new row for each column in the data matrix.  
 4. View an example [CSV\_dd\_example](csv_dd_example.md).  
