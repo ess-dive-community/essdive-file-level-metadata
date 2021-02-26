@@ -2,7 +2,7 @@
 
 ## Instructions
 
-1. Create a CSV data dictionary using the [CSV_dd_template](CSV_dd_template.xlsx)  
+1. Create a CSV data dictionary using the [CSV_dd_template](CSV_dd_template.csv)  
 2. See the [CSV_dd_quick_guide](CSV_dd_quick_guide.md) for more details about completing the template  
 3. Enter a new row for each column in the data matrix.  
 4. View an example [CSV_dd_example](CSV_dd_example.md).  
