@@ -39,6 +39,8 @@ Funding for the development of ESS-DIVE File-level Metadata Reporting Format was
 
 Velliquette T ; Welch J ; Crow M ; Devarakonda R ; Heinz S ; Crystal-Ornelas R \(2020\): ESS-DIVE Reporting Format for File-level Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem. DOI: 10.15485/1734840
 
+McNelis, J., Crow, M., and Devarakonda, R., ESS-DIVE File Level Metadata Extractor. Computer Software. https://code.ornl.gov/ngee-arctic/ess-dive-meta. 01 Oct. 2020. Web. doi:10.11578/dc.20201103.5.
+
 ## References
 
 EDI \(Environmental Data Initiative\). 2019. Five phases of data publishing - Phase 2: Format and QC data tables. [https://environmentaldatainitiative.org/five-phases-of-data-publishing/phase-2/](https://environmentaldatainitiative.org/five-phases-of-data-publishing/phase-2/)
