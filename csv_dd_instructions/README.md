@@ -24,10 +24,10 @@
 
 For each variable provide the following:
 
-* Column name  
+* Field name  
 * Unit  
 * Definition  
-* Column long name  
+* Field long name  
 * Data type  
 
 **Notes**
