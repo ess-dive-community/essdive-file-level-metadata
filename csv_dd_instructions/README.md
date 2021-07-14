@@ -17,14 +17,14 @@
 
             i. "wave_\*\"   
 6. View an example [CSV\_dd\_example](csv_dd_example.md).  
-7. Save the CSV\_dd template following the [CSV Reporting Format guidance](https://github.com/ess-dive-community/essdive-csv-structure).  
-8. Recommendations for naming the CSV\_dd with same name as the original data filename and append "\_dd".  
+7. Save the CSV\_dd template following the [CSV Reporting Format guidance](https://github.com/ess-dive-community/essdive-csv-structure) with the filename "dd.csv" or "\*\_dd.csv"  
 
-        a. Use "\*" wildcard when the CSV\_dd applies to multiple CSV data files.  
+        a. CSV_dd could have the same name as the associated data filename  
 
-        b. For example - the same CSV\_dd applies to all soil core files in this data package   
+        b. Unique filename
+        
+        c. Wildcard filename if CSV_dd applies to multiple data files (for example - "soil_cores_\*\_dd.csv")      
 
-            i. "soil_cores_\*\_dd.csv"  
 
 **Contents of the CSV\_dd**
 
