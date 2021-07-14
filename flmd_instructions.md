@@ -10,7 +10,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. For example - the same FLMD applies to all soil core files in this data package - "soil_cores_\*.csv"  
 2. Follow the instructions in the [FLMD quick guide](documents/flmd_quick_guide.md)  
 3. Use the [FLMD template](https://github.com/ess-dive-community/essdive-file-level-metadata/tree/3acd84067cf980484b4b86e95dbdcace42db3796/flmd_template.xlsx)  
-4. Save the FLMD template following the CSV Reporting Format guidance with the name "flmd.csv"  
+4. Save the FLMD template following the CSV Reporting Format guidance with the name "flmd.csv" or "\*\_flmd.csv"  
 5. For CSV data files, create a [CSV Data Dictionary](csv_dd_instructions/) to describe the fields and other attributes of your CSV data file  
 
 **Notes**
