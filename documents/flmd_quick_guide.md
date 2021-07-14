@@ -151,7 +151,7 @@ Elements of the reporting format:
 | Metadata Element | Missing\_Value\_Codes |
 | :--- | :--- |
 | Reporting Format Statement | Report missing value codes |
-| Reporting Format Definition | Report all Missing Value Codes. For columns containing numeric data, use "-9999" as the missing value code \(or modify to match significant figures given the data\). For columns containing character data, use "N/A" as the missing value code. |
+| Reporting Format Definition | Report all Missing Value Codes. For columns containing numeric data, use "-9999" as the missing value code \(or modify to match significant figures given the data\). For columns containing character data, use "N/A" as the missing value code. Follow CSV reporting format instructions for delimiter instructions. |
 | Required, Recommended or Optional | optional |
 | Format |  |
 
