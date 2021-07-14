@@ -9,10 +9,16 @@
         b. Create one data dictionary representing all data files.    
 
 3. See the [CSV\_dd\_quick\_guide](csv_dd_quick_guide.md) for more details about completing the template  
-4. Enter a new row for each field in the data matrix.  
-5. View an example [CSV\_dd\_example](csv_dd_example.md).  
-6. Save the CSV\_dd template following the [CSV Reporting Format guidance](https://github.com/ess-dive-community/essdive-csv-structure).  
-7. Recommendations for naming the CSV\_dd with same name as the original data filename and append "\_dd".  
+4. Enter a new row for each field in the data matrix.
+
+        a. Use "\*" wildcard when the description applies to multiple fields.  
+
+        b. For example - the same description applies to all spectra data fields in the data file(s)   
+
+            i. "wave_\*\"   
+6. View an example [CSV\_dd\_example](csv_dd_example.md).  
+7. Save the CSV\_dd template following the [CSV Reporting Format guidance](https://github.com/ess-dive-community/essdive-csv-structure).  
+8. Recommendations for naming the CSV\_dd with same name as the original data filename and append "\_dd".  
 
         a. Use "\*" wildcard when the CSV\_dd applies to multiple CSV data files.  
 
