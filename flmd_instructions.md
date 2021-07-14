@@ -5,7 +5,7 @@
 ## Instructions
 
 1. Create file-level metadata for each data package using the template  
-&nbsp;&nbsp;&nbsp;a. Start new row for each file  
+&nbsp;&nbsp;&nbsp;a. Start new row for each file and include all files  
 &nbsp;&nbsp;&nbsp;b. Use "\*" wildcard when the FLMD applies to multiple files  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. For example - the same FLMD applies to all soil core files in this data package - "soil_cores_\*.csv"  
 2. Follow the instructions in the [FLMD quick guide](documents/flmd_quick_guide.md)  
