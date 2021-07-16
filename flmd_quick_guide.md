@@ -65,7 +65,7 @@ Elements of the reporting format:
 |Metadata Element|Contact|
 |:----------------------------------------------------|:----------------------------------------------------|
 |Reporting Format Statement|Contact for the file.|
-|Reporting Format Definition|Contact for the file. This should be someone with information already recorded at the Data Package Level.|
+|Reporting Format Definition|Provide first and last name of the contact for the file. This should be someone with information already recorded at the Data Package Level.|
 |Required, Recommended or Optional|optional|
 |Format||
 
