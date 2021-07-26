@@ -1,6 +1,6 @@
-# Overview
+# ESS-DIVE File-level Metadata reporting format v1.0.0
 
-File-level metadata provides granular information at the data file level to enable comparison of data files within a data package and the ability to search for and locate files across the data collection. The recommended file-level metadata \(FLMD\) schema will describe the contents, scope, and structure of the data file within the ESS-DIVE repository. This metadata is fully consistent with and augments the metadata collected to describe each data package.
+File-level metadata provides granular information at the data file level to enable comparison of data files within a data set and the ability to search for and locate files across the data collection. The recommended file-level metadata \(FLMD\) schema will describe the contents, scope, and structure of the data file within the ESS-DIVE repository. This metadata is fully consistent with and augments the metadata collected to describe each data set.
 
 ## Getting started
 
@@ -10,21 +10,25 @@ Instructions for how to use this reporting format:
 
 Other documents:
 
-* [File-level metadata quick guide](documents/flmd_quick_guide.md)   
-* [File-level metadata template](https://github.com/ess-dive-community/essdive-file-level-metadata/tree/3acd84067cf980484b4b86e95dbdcace42db3796/flmd_template.xlsx)  
+* [File-level metadata quick guide](flmd_quick_guide.md)   
+* [File-level metadata template](https://github.com/ess-dive-community/essdive-file-level-metadata/tree/3acd84067cf980484b4b86e95dbdcace42db3796/flmd_template.xlsx) 
 
-          - [Includes example](documents/flmd_template_example.md)  
+          - [Includes example template](documents/flmd_template_example.md)  
 
 * CSV Data Dictionary  
 
-          - Includes [instructions](csv_dd_instructions/), [template](https://github.com/ess-dive-community/essdive-file-level-metadata/tree/3acd84067cf980484b4b86e95dbdcace42db3796/CSV_dd/CSV_dd_template.xlsx), and [example](csv_dd_instructions/csv_dd_example.md)
+          - Includes [instructions](csv_dd_instructions/), [template](https://github.com/ess-dive-community/essdive-file-level-metadata/tree/3acd84067cf980484b4b86e95dbdcace42db3796/CSV_dd/CSV_dd_template.xlsx), and [example](CSV_DD/csv_dd_example.md)
 
-## How to contribute
+---  
+## Updates in v1.0.0
+This is the first release of the file-level metadata reporting format.
 
-This ESS-DIVE File-level Metadata Reporting Format is evolving and growing to meet the needs of the community. Feedback and new contributions are welcome. If you would like to suggest a change to the File-level Metadata Reporting Format please submit a GitHub issue using one of the templates we provide.
+## How to contribute  
+This ESS-DIVE File-level Metadata Reporting Format is evolving and growing to meet the needs of the community. Feedback and new contributions are welcome. If you would like to suggest a change to the File-level Metadata Reporting Format please submit a [GitHub issue](https://github.com/ess-dive-community/essdive-file-level-metadata/issues/new/choose) using one of the templates we provide.
 
-If you have any questions about this reporting format, you can also directly email ESS-DIVE support at ess-dive-support@lbl.gov. Our issue templates were based on those used by Darwin Core
+If you have any questions about this reporting format, you can also directly email ESS-DIVE support at ess-dive-support@lbl.gov.  
 
+Our issue templates were based on those used by Darwin Core.  
 Darwin Core maintenance group, Biodiversity Information Standards \(TDWG\) \(2014\). Darwin Core. Zenodo. [https://doi.org/10.5281/zenodo.592792](https://doi.org/10.5281/zenodo.592792)
 
 ## Copyright information
