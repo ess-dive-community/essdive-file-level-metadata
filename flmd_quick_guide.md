@@ -17,7 +17,7 @@ Elements of the reporting format:
 * [Longitude](#longitude)  
 * [Missing_Value_Codes](#missing-value-codes)  
 * [Notes](#notes)  
-* [Field_Name_Orientation](#field-name-orientation)  
+* [Header_Orientation](#header-orientation)  
 
 ---  
 
@@ -25,7 +25,7 @@ Elements of the reporting format:
 |Metadata Element|File_Name|
 |:----------------------------------------------------|:----------------------------------------------------|
 |Reporting Format Statement|Name of the file|
-|Reporting Format Definition|Provide the name of the associated file. Filenames should be unique and be as descriptive as possible about the file contents. Use only letters (e.g. CamelCase), numbers, and underscores "_". Do not include spaces. Hyphens allowed but not preferred. Use "\*" wildcard when the FLMD applies to multiple files. For example - the same FLMD applies to all soil core files in this data package - "soil_cores_\*.csv"|
+|Reporting Format Definition|Provide the name of the associated file. File names should be unique and be as descriptive as possible about the file contents. Use only letters (e.g. CamelCase), numbers, and underscores "\_". Do not include spaces. Hyphens allowed but not preferred. Use "\*" wildcard when the FLMD applies to multiple files. For example - the same FLMD applies to all soil core files in this data package - "soil_cores_\*.csv"|
 |Required, Recommended or Optional|required|
 |Format||
 
@@ -41,7 +41,7 @@ Elements of the reporting format:
 |Metadata Element|Standard|
 |:----------------------------------------------------|:----------------------------------------------------|
 |Reporting Format Statement|Standard applied to the data file.|
-|Reporting Format Definition|Identify if an ESS-DIVE Reporting Format or any other standard was applied to the data file.|
+|Reporting Format Definition|Identify if an ESS-DIVE Reporting Format or any other data or metadata standard was applied to the data file.|
 |Required, Recommended or Optional|strongly recommended|
 |Format||
 
@@ -49,7 +49,7 @@ Elements of the reporting format:
 |Metadata Element|UTC_Offset|
 |:----------------------------------------------------|:----------------------------------------------------|
 |Reporting Format Statement|Local Standard Time Offset|
-|Reporting Format Definition|Report the Local Standard Time offset (+/- #hours) or time zone (abbreviations allowed). Do not report time using Daylight Savings Time. |
+|Reporting Format Definition|Report the Local Standard Time offset (+/- #hours) or time zone (abbreviations allowed). Do not report time using Daylight Savings Time.|
 |Required, Recommended or Optional|strongly recommended|
 |Format||
 
@@ -141,18 +141,18 @@ Elements of the reporting format:
 |Required, Recommended or Optional|optional|
 |Format||
 
+### Header orientation  
+|Metadata Element|Header_Orientation|
+|:----------------------------------------------------|:----------------------------------------------------|
+|Reporting Format Statement|Orientation of the header row or column.|
+|Reporting Format Definition|Describe the orientation of the "header" within the data matrix of the data file: 1) "Horizontal" with names at the top of columns or  2) "Vertical" with names starting rows.|
+|Required, Recommended or Optional|optional|
+|Format||  
+
 ### Notes  
 |Metadata Element|Notes|
 |:----------------------------------------------------|:----------------------------------------------------|
 |Reporting Format Statement|Any information the provider would like to add.|
 |Reporting Format Definition|Information provided would be data file specific. Details may include details on data file versioning, reporting format, software requirements, data quality, etc.|
-|Required, Recommended or Optional|optional|
-|Format||
-
-### Field name orientation  
-|Metadata Element|Field_Name_Orientation|
-|:----------------------------------------------------|:----------------------------------------------------|
-|Reporting Format Statement|Orientation of the field name row or column.|
-|Reporting Format Definition|Describe the orientation of the "Field Name" within the data matrix of the data file: 1) Horizontal with field names at the top of columns or  2) Vertical with field names starting rows.|
 |Required, Recommended or Optional|optional|
 |Format||
