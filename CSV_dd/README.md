@@ -6,7 +6,7 @@
  
         a. One data dictionary for each data file or  
 
-        b. One data dictionary representing all data files.    
+        b. One data dictionary representing all data files in your dataset.    
 
 2. See the [CSV\_dd\_quick\_guide](csv_dd_quick_guide.md) for more details about completing the template  
 3. Enter a new row in the data dictionary for each column/row name in your data matrix 
@@ -21,7 +21,7 @@
 
 5. Save the CSV\_dd template following the [CSV Reporting Format guidance](https://github.com/ess-dive-community/essdive-csv-structure) with the filename "dd.csv" or "\*\_dd.csv". Alternatively you may choose to name you data dictionary: 
    
-        a. With the same name as the associated data file, but include '\_dd' at the end of the file name.  
+        a. With the same name as the associated data file, but include '\_dd.csv' at the end of the file name.  
         b. Create a unique filename for your data dictionary.  
         c. Incorporate a wildcard into the filename if data dictionary applies to multiple data files (for example - "soil_cores_\*\_dd.csv")  
 
@@ -32,7 +32,7 @@ For each variable provide the following:
 * Column/row name  
 * Unit  
 * Definition  
-* Field long name    
+* Column/row long name    
 * Data type  
 
 **Notes**  
