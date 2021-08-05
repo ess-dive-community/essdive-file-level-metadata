@@ -41,7 +41,7 @@ Funding for the development of ESS-DIVE File-level Metadata Reporting Format was
 
 ## Related references
 
-Velliquette T ; Welch J ; Crow M ; Devarakonda R ; Heinz S ; Crystal-Ornelas R \(2020\): ESS-DIVE Reporting Format for File-level Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem. DOI: 10.15485/1734840
+Velliquette T ; Welch J ; Crow M ; Devarakonda R ; Heinz S ; Crystal-Ornelas R \(2021\): ESS-DIVE Reporting Format for File-level Metadata. Environmental Systems Science Data Infrastructure for a Virtual Ecosystem. DOI: 10.15485/1734840
 
 McNelis, J., Crow, M., and Devarakonda, R., ESS-DIVE File Level Metadata Extractor. Computer Software. https://code.ornl.gov/ngee-arctic/ess-dive-meta. 01 Oct. 2020. Web. doi:10.11578/dc.20201103.5.
 
