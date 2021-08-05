@@ -4,7 +4,7 @@
 | :--- | :--- | :--- | :--- | :--- |
 | area | N/A | Name of the intensive field site within the project. Possible values: Area A, Area B, Area C | Field site name | text |
 | date\_collected | yyyy-mm-dd | Date samples were collected in the field. | N/A | date |
-| sampleID | N/A | Samples were collected in the field and bags marked with sequential ID numbers. | Unique sample identifier | text |
+| sample\_ID | N/A | Samples were collected in the field and bags marked with sequential ID numbers. | Unique sample identifier | text |
 | long | decimal degrees | Longitude provided in WGS84 | Longitude | numeric |
 | lat | decimal degrees | Latitude provided in WGS84 | Latitude | numeric |
 | sample\_volume\_collected | mg/L | The volume of the sample collected. | The volume of the sample collected. | numeric |
