@@ -29,13 +29,13 @@
 
 For each variable provide the following:
 
-* Column/row name  
+* Column or Row Name  
 * Unit  
 * Definition  
-* Column/row long name    
-* Data type  
+* Column or Row Long Name    
+* Data Type  
 
 **Notes**  
 
-Following the recommended format and structure of the CSV Reporting Format will facilitate FLMD extraction of some fields using the [File Level Metadata Extractor](https://code.ornl.gov/ngee-arctic/ess-dive-meta)
+Following the recommended format and structure of the CSV Reporting Format will facilitate File-level Metadata extraction of some fields using the [File Level Metadata Extractor](https://code.ornl.gov/ngee-arctic/ess-dive-meta)
 
