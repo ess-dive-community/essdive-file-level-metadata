@@ -8,7 +8,7 @@ Elements of the data dictionary:
 * [Column\_or\_Row\_Long\_Name](csv_dd_quick_guide.md#column-long-name)  
 * [Data\_Type](csv_dd_quick_guide.md#data-type)  
 
-## Column name
+## Column or row name
 
 | Metadata\_Element | Column\_or\_Row\_Name |
 | :--- | :--- |
@@ -32,7 +32,7 @@ Elements of the data dictionary:
 | Reporting format definition | A complete unambiguous description. Information may include: formulas used to calculate entry; definitions of coding systems \(e.g. missing values, quality flags, etc.\); detection limits; timestamp calculation; measurement of uncertainty, etc. |
 | Required, Recommended or Optional | required |
 
-## Column long name
+## Column or row long name
 
 | Metadata\_Element | Column\_or\_Row\_Long\_Name |
 | :--- | :--- |
