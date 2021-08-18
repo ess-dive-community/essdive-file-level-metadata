@@ -17,7 +17,7 @@ Other documents:
 
 * CSV Data Dictionary  
 
-          - Includes [instructions](csv_dd_instructions/), [template](https://github.com/ess-dive-community/essdive-file-level-metadata/tree/3acd84067cf980484b4b86e95dbdcace42db3796/CSV_dd/CSV_dd_template.xlsx), and [example](CSV_DD/csv_dd_example.md)
+          - Includes [instructions](CSV_dd/README.md), [template](CSV_dd/CSV_dd_template.csv), and [example](CSV_dd/csv_dd_example.md)
 
 ---  
 ## Updates in v1.0.0
