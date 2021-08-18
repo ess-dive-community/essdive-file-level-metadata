@@ -7,8 +7,8 @@ Elements of the reporting format:
 * [UTC_Offset](#utc-offset)  
 * [File_Version](#file-version)  
 * [Contact](#contact)  
-* [Start_Date](#start-date)  
-* [End_Date](#end-date)  
+* [Date_Start](#date-start)  
+* [Date_End](#date-end)  
 * [Northwest_Latitude_Coordinate](#northwest-latitude-coordinate)  
 * [Northwest_Longitude_Coordinate](#northwest-longitude-coordinate)  
 * [Southeast_Latitude_Coordinate](#southeast-latitude-coordinate)  
@@ -21,15 +21,15 @@ Elements of the reporting format:
 
 ---  
 
-### File name  
+### File Name  
 |Metadata Element|File_Name|
 |:----------------------------------------------------|:----------------------------------------------------|
 |Reporting Format Statement|Name of the file|
-|Reporting Format Definition|Provide the name of the associated file. File names should be unique and be as descriptive as possible about the file contents. Use only letters (e.g. CamelCase), numbers, and underscores "\_". Do not include spaces. Hyphens allowed but not preferred. Use "\*" wildcard when the FLMD applies to multiple files. For example - the same FLMD applies to all soil core files in this data package - "soil_cores_\*.csv"|
+|Reporting Format Definition|Provide the name of the associated file. File names should be unique and be as descriptive as possible about the file contents. Use only letters (e.g. CamelCase), numbers, and underscores. Do not include spaces. Hyphens allowed but not preferred. Use "\*" wildcard when the FLMD applies to multiple files. For example - the same FLMD applies to all soil core files in this data package - "soil_cores_\*.csv"|
 |Required, Recommended or Optional|required|
 |Format||
 
-### File description
+### File Description
 |Metadata Element|File_Description|
 |:----------------------------------------------------|:----------------------------------------------------|
 |Reporting Format Statement|A brief description of the file|
@@ -53,7 +53,7 @@ Elements of the reporting format:
 |Required, Recommended or Optional|strongly recommended|
 |Format||
 
-### File version  
+### File Version  
 |Metadata Element|File_Version|
 |:----------------------------------------------------|:----------------------------------------------------|
 |Reporting Format Statement|The version of the file.|
@@ -69,23 +69,23 @@ Elements of the reporting format:
 |Required, Recommended or Optional|optional|
 |Format||
 
-### Start date  
-|Metadata Element|Start_Date|
+### Date Start  
+|Metadata Element|Date_Start|
 |:----------------------------------------------------|:----------------------------------------------------|
 |Reporting Format Statement|The earliest date in the file.|
 |Reporting Format Definition|All dates must follow the ISO 8601 standard. This field can be date only following the ISO 8601 standard (YYYY-MM-DD) and completed to known precision (e.g. YYYY-MM, YYYY). The FLMD Extractor can extract the start/end date from a CSV file following the CSV Reporting Format.|
 |Required, Recommended or Optional|optional|
 |Format|yyyy-mm-dd|
 
-### End date
-|Metadata Element|End_Date|
+### Date End
+|Metadata Element|Date_End|
 |:----------------------------------------------------|:----------------------------------------------------|
 |Reporting Format Statement|The latest date in the file.|
 |Reporting Format Definition|All dates must follow the ISO 8601 standard. This field can be date only following the ISO 8601 standard (YYYY-MM-DD) and completed to known precision (e.g. YYYY-MM, YYYY). The FLMD Extractor can extract the start/end date from a CSV file following the CSV Reporting Format.|
 |Required, Recommended or Optional|optional|
 |Format|yyyy-mm-dd|
 
-### Northwest latitude coordinate
+### Northwest Latitude Coordinate
 |Metadata Element|Northwest_Latitude_Coordinate|
 |:----------------------------------------------------|:----------------------------------------------------|
 |Reporting Format Statement|Northwest Latitude Coordinate for non-point location.|
@@ -93,7 +93,7 @@ Elements of the reporting format:
 |Required, Recommended or Optional|optional|
 |Format|decimal degrees|
 
-### Northwest longitude coordinate
+### Northwest Longitude Coordinate
 |Metadata Element|Northwest_Longitude_Coordinate|
 |:----------------------------------------------------|:----------------------------------------------------|
 |Reporting Format Statement|Northwest Longitude Coordinate for non-point location.|
@@ -101,7 +101,7 @@ Elements of the reporting format:
 |Required, Recommended or Optional|optional|
 |Format|decimal degrees|
 
-### Southeast latitude coordinate
+### Southeast Latitude Coordinate
 |Metadata Element|Southeast_Latitude_Coordinate|
 |:----------------------------------------------------|:----------------------------------------------------|
 |Reporting Format Statement|Southeast Latitude Coordinate for non-point location.|
@@ -109,7 +109,7 @@ Elements of the reporting format:
 |Required, Recommended or Optional|optional|
 |Format|decimal degrees|
 
-### Southeast longitude coordinate
+### Southeast Longitude Coordinate
 |Metadata Element|Southeast_Longitude_Coordinate|
 |:----------------------------------------------------|:----------------------------------------------------|
 |Reporting Format Statement|Southeast Longitude Coordinate for non-point location.|
@@ -133,7 +133,7 @@ Elements of the reporting format:
 |Required, Recommended or Optional|optional|
 |Format||
 
-### Missing value codes
+### Missing Value Codes
 |Metadata Element|Missing_Value_Codes|
 |:----------------------------------------------------|:----------------------------------------------------|
 |Reporting Format Statement|Report missing value codes|
@@ -141,7 +141,7 @@ Elements of the reporting format:
 |Required, Recommended or Optional|optional|
 |Format||
 
-### Header orientation  
+### Header Orientation  
 |Metadata Element|Header_Orientation|
 |:----------------------------------------------------|:----------------------------------------------------|
 |Reporting Format Statement|Orientation of the header row or column.|
