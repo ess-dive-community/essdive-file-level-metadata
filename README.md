@@ -13,7 +13,7 @@ Other documents:
 * [File-level metadata quick guide](flmd_quick_guide.md)   
 * [File-level metadata template](https://github.com/ess-dive-community/essdive-file-level-metadata/tree/3acd84067cf980484b4b86e95dbdcace42db3796/flmd_template.xlsx) 
 
-          - [Includes example template](documents/flmd_template_example.md)  
+          - [Includes example template](https://github.com/ess-dive-community/essdive-file-level-metadata/blob/master/flmd_template_example.md)  
 
 * CSV Data Dictionary  
 
