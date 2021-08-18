@@ -4,7 +4,6 @@
 * [Instructions](flmd_instructions.md)
 * [Documents](documents/README.md)
   * [FLMD quick guide](documents/flmd_quick_guide.md)
-  * [Crosswalk](documents/flmd_crosswalk.md)
   * [FLMD example template](documents/flmd_template_example.md)
 * [CSV Data Dictionary](csv_dd_instructions/README.md)
   * [CSV Data Dictionary quick guide](csv_dd_instructions/csv_dd_quick_guide.md)
