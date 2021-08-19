@@ -2,10 +2,12 @@
 
 * [Overview](README.md)
 * [Instructions](flmd_instructions.md)
-* [Documents](documents/README.md)
-  * [FLMD quick guide](documents/flmd_quick_guide.md)
-  * [FLMD example template](documents/flmd_template_example.md)
-* [CSV Data Dictionary](csv_dd_instructions/README.md)
-  * [CSV Data Dictionary quick guide](csv_dd_instructions/csv_dd_quick_guide.md)
-  * [CSV Data Dictionary example template](csv_dd_instructions/csv_dd_example.md)
+* [FLMD quick guide](flmd_quick_guide.md)
+* [FLMD example template](flmd_template_example.md)
+* [FLMD template](flmd_template.xlsx)
+* [CSV Data Dictionary](CSV_dd/README.md)
+  * [CSV Data Dictionary quick guide](CSV_dd/csv_dd_quick_guide.md)
+  * [CSV Data Dictionary example template](CSV_dd/csv_dd_example.md)
+  * [CSV Data Dctionary template](CSV_dd/csv_dd_template.csv)
+* [License](LICENSE.md)
 
