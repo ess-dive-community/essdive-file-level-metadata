@@ -16,8 +16,9 @@ Elements of the reporting format:
 * [Latitude](#latitude)  
 * [Longitude](#longitude)  
 * [Missing_Value_Codes](#missing-value-codes)  
-* [Notes](#notes)  
 * [Header_Orientation](#header-orientation)  
+* [Notes](#notes)  
+ 
 
 ---  
 
