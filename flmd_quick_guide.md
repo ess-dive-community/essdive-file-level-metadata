@@ -26,7 +26,7 @@ Elements of the reporting format:
 |Metadata Element|File_Name|
 |:----------------------------------------------------|:----------------------------------------------------|
 |Reporting Format Statement|Name of the file|
-|Reporting Format Definition|Provide the name of the associated file. File names should be unique and be as descriptive as possible about the file contents. Use only letters (e.g. CamelCase), numbers, and underscores. Do not include spaces. Hyphens allowed but not preferred. Use "\*" wildcard when the FLMD applies to multiple files. For example - the same FLMD applies to all soil core files in this data package - "soil\_cores\_\*\.csv"|
+|Reporting Format Definition|Provide the name of the associated file. File names should be unique and be as descriptive as possible about the file contents. Use only letters (e.g. CamelCase), numbers, and underscores. Do not include spaces. Hyphens allowed but not preferred. Use "\*" wildcard when the FLMD applies to multiple files. For example - the same FLMD applies to all soil core files in this data package - "soil&#95;cores&#95;\*\.csv"|
 |Required, Recommended or Optional|required|
 |Format||
 
