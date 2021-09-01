@@ -31,6 +31,6 @@
 * Latitude  
 * Longitude  
 * Missing\_Value\_Codes    
-* Header_Orientation  
+* Data_Orientation  
 * Notes
 
