@@ -146,7 +146,7 @@ Elements of the reporting format:
 |Metadata Element|Data_Orientation|
 |:----------------------------------------------------|:----------------------------------------------------|
 |Reporting Format Statement|Orientation of tabular data|
-|Reporting Format Definition|Describe whether the data are organized as either "horizontal" (i.e., by rows) or "vertical" (i.e., by columns).|
+|Reporting Format Definition|Describe how the data are organized within the data matrix. Choose between "horizontal" (i.e., data are organized in rows) or "vertical" (i.e., data are organized in columns).|
 |Required, Recommended or Optional|optional|
 |Format||  
 
