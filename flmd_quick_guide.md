@@ -16,7 +16,7 @@ Elements of the reporting format:
 * [Latitude](#latitude)  
 * [Longitude](#longitude)  
 * [Missing_Value_Codes](#missing-value-codes)  
-* [Header_Orientation](#header-orientation)  
+* [Data_Orientation](#data-orientation)  
 * [Notes](#notes)  
  
 
@@ -142,11 +142,11 @@ Elements of the reporting format:
 |Required, Recommended or Optional|optional|
 |Format||
 
-### Header Orientation  
-|Metadata Element|Header_Orientation|
+### Data Orientation  
+|Metadata Element|Data_Orientation|
 |:----------------------------------------------------|:----------------------------------------------------|
-|Reporting Format Statement|Orientation of the header row or column.|
-|Reporting Format Definition|Describe the orientation of the "header" within the data matrix of the data file: 1) "Horizontal" with names at the top of columns or  2) "Vertical" with names starting rows.|
+|Reporting Format Statement|Orientation of tabular data|
+|Reporting Format Definition|Describe whether the data are organized as either "horizontal" (i.e., by rows) or "vertical" (i.e., by columns).|
 |Required, Recommended or Optional|optional|
 |Format||  
 
