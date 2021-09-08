@@ -17,7 +17,7 @@ Other documents:
 
 * CSV Data Dictionary  
 
-          - Includes [instructions](CSV_dd/README.md), [template](CSV_dd/CSV_dd_template.csv), and [example](CSV_dd/csv_dd_example.md)
+          - Includes [instructions](CSV_dd/README.md), [template](CSV_dd/CSV_dd_template.xlsx), and [example](CSV_dd/csv_dd_example.md)
 
 ---  
 ## Updates in v1.0.0
