@@ -24,7 +24,7 @@ Other documents:
 This is the first release of the file-level metadata reporting format.
 
 ## How to contribute  
-This ESS-DIVE File-level Metadata Reporting Format is evolving and growing to meet the needs of the community. Feedback and new contributions are welcome. If you would like to suggest a change to the File-level Metadata Reporting Format please submit a [GitHub issue](https://github.com/ess-dive-community/essdive-file-level-metadata/issues/new/choose) using one of the templates we provide.
+This ESS-DIVE file-level metadata reporting format is evolving and growing to meet the needs of the community. Feedback and new contributions are welcome. If you would like to suggest a change to the file-level metadata reporting format please submit a [GitHub issue](https://github.com/ess-dive-community/essdive-file-level-metadata/issues/new/choose) using one of the templates we provide.
 
 If you have any questions about this reporting format, you can also directly email ESS-DIVE support at ess-dive-support@lbl.gov.  
 
