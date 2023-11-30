@@ -1,6 +1,6 @@
 # CSV Data Dictionary example template
 
-| Column\_or\_Row\_Name | Unit | Definition | Column\_or\_Row\_Long\_Name | Data\_Type |
+| column_or_row_name | unit | definition | column_or_row_long_name | data_type |
 | :--- | :--- | :--- | :--- | :--- |
 | area | N/A | Name of the intensive field site within the project. Possible values: Area A, Area B, Area C | Field site name | text |
 | date\_collected | yyyy-mm-dd | Date samples were collected in the field. | N/A | date |

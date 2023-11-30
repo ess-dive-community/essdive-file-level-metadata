@@ -2,15 +2,15 @@
 
 Elements of the data dictionary:
 
-* [Column\_or\_Row\_Name](csv_dd_quick_guide.md#column-or-row-name)  
-* [Unit](csv_dd_quick_guide.md#unit)  
-* [Definition](csv_dd_quick_guide.md#definition)  
-* [Column\_or\_Row\_Long\_Name](csv_dd_quick_guide.md#column-or-row-long-name)  
-* [Data\_Type](csv_dd_quick_guide.md#data-type)  
+* [column_or_row_name](csv_dd_quick_guide.md#column-or-row-name)  
+* [unit](csv_dd_quick_guide.md#unit)  
+* [definition](csv_dd_quick_guide.md#definition)  
+* [column_or_row_long_name](csv_dd_quick_guide.md#column-or-row-long-name)  
+* [data_type](csv_dd_quick_guide.md#data-type)  
 
 ## Column or Row Name
 
-| Metadata\_Element | Column\_or\_Row\_Name |
+| Metadata\_Element | column_or_row_name |
 | :--- | :--- |
 | Reporting format statement | Column or row name from the data file. |
 | Reporting format definition | Provide entries for each column or row name from the data matrix in the data file. |
@@ -18,7 +18,7 @@ Elements of the data dictionary:
 
 ## Unit
 
-| Metadata\_Element | Unit |
+| Metadata\_Element | unit |
 | :--- | :--- |
 | Reporting format statement | Provide the format or variable unit of measurement. |
 | Reporting format definition | Provide variable units of measurement. Insert "N/A" when units aren't applicable. Data should be represented with units of measurement approved by the International System of Units \(SI\). Non-SI units are accepted for use and should be defined and referenced. |
@@ -26,7 +26,7 @@ Elements of the data dictionary:
 
 ## Definition
 
-| Metadata\_Element | Definition |
+| Metadata\_Element | definition |
 | :--- | :--- |
 | Reporting format statement | A complete unambiguous description. |
 | Reporting format definition | A complete unambiguous description. Information may include: formulas used to calculate entry; definitions of coding systems \(e.g. missing values, quality flags, etc.\); detection limits; timestamp calculation; measurement of uncertainty, etc. |
@@ -34,7 +34,7 @@ Elements of the data dictionary:
 
 ## Column or Row Long Name
 
-| Metadata\_Element | Column\_or\_Row\_Long\_Name |
+| Metadata\_Element | column_or_row_long_name |
 | :--- | :--- |
 | Reporting format statement | Human-readable name. |
 | Reporting format definition | Longer human-readable column or row name. Sometimes this may be identical to Definition or even Column\_or\_Row\_Name. |
@@ -42,7 +42,7 @@ Elements of the data dictionary:
 
 ## Data type
 
-| Metadata\_Element | Data\_Type |
+| Metadata\_Element | data_type |
 | :--- | :--- |
 | Reporting format statement | Define the data type. |
 | Reporting format definition | Define the data type for each column \(e.g. text, numeric, date\) |

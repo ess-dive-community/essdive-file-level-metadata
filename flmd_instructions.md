@@ -1,4 +1,4 @@
-# Instructions for ESS-DIVE File-level Metadata Reporting Format
+# Instructions for ESS-DIVE File Level Metadata Reporting Format
 
 1. Create file-level metadata for each data set using the provided template  
 &nbsp;&nbsp;&nbsp;a. Start new row for each file and include all files  
@@ -8,7 +8,8 @@
 3. Use the [FLMD template](https://github.com/ess-dive-community/essdive-file-level-metadata/blob/master/flmd_template.xlsx)  
 4. Save the FLMD template as a CSV following the CSV Reporting Format guidance. We recommend naming the flmd file "flmd.csv" or you can include a prefix in the form of "\*\_flmd.csv"  
 5. For CSV data files, create a [CSV Data Dictionary](CSV_dd/) to describe the fields and other attributes of your CSV data file. Also list any data dictionaries you create as part of your file-level metadata (described in step 1a) 
-6. For zip files, we recommend including the FLMD outside the zip file but may also include it in the zip file  
+6. For zip files, we recommend including the FLMD outside the zip file but may also include it in the zip file
+7. If submitting your dataset to ESS-DIVE, include the keyword **ESS-DIVE File Level Metadata Reporting Format**.
 
 **Notes**
 
@@ -16,21 +17,21 @@
 
 **Contents of the Elements**
 
-* File\_Name  
-* File\_Description  
-* Standard  
-* UTC\_Offset  
-* File\_Version  
-* Contact  
-* Date\_Start  
-* Date\_End  
-* Northwest\_Latitude\_Coordinate  
-* Northwest\_Longitude\_Coordinate  
-* Southeast\_Latitude\_Coordinate  
-* Southeast\_Longitude\_Coordinate  
-* Latitude  
-* Longitude  
-* Missing\_Value\_Codes    
-* Data_Orientation  
-* Notes
+* file_name 
+* file_description
+* standard  
+* utc_offset 
+* file_version
+* contact  
+* date_start 
+* date_end 
+* northwest_latitude_coordinate
+* northwest_longitude_coordinate 
+* southeast_latitude_coordinate 
+* southeast_longitude_coordinate
+* latitude  
+* longitude  
+* missing_value_codes  
+* data_orientation  
+* notes
 

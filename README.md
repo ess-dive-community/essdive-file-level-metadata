@@ -1,4 +1,4 @@
-# ESS-DIVE File-level Metadata reporting format v1.0.0
+# ESS-DIVE File Level Metadata Reporting Format v1.0.0 
 
 File-level metadata provides granular information at the data file level to enable comparison of data files within a data set and the ability to search for and locate files across the data collection. The recommended file-level metadata \(FLMD\) schema will describe the contents, scope, and structure of the data file within the ESS-DIVE repository. This metadata is fully consistent with and augments the metadata collected to describe each data set.
 
