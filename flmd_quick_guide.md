@@ -13,6 +13,7 @@ Elements of the reporting format:
 * [data_orientation](#data-orientation)
 * [header_rows](#header-rows)
 * [column_or_row_name_position](#column-or-row-name-position)
+* [northwest_latitude_coordinate](#northwest-latitude-coordinate)  
 * [northwest_longitude_coordinate](#northwest-longitude-coordinate)  
 * [southeast_latitude_coordinate](#southeast-latitude-coordinate)  
 * [southeast_longitude_coordinate](#southeast-longitude-coordinate)  
@@ -118,6 +119,14 @@ Elements of the reporting format:
 |Reporting Format Definition|Provide the row or column number that contains the header names. This field is not required if there are no rows (if data is horizontally oriented) or columns (if data are vertically oriented) before the row/column names. If not included, it will be assumed that header names are in row 0 (vertically oriented) or column 0 (horizontally oriented). If there are rows/columns after the header names, note these using the header_rows field.|
 |Required, Recommended or Optional|optional|
 |Format|number|
+
+### Northwest Latitude Coordinate
+|Metadata Element|northwest_latitude_coordinate|
+|:----------------------------------------------------|:----------------------------------------------------|
+|Reporting Format Statement|Northwest latitude Coordinate for non-point location.|
+|Reporting Format Definition|This is part of a coordinate pair to form the Northwest corner of a bounding box for non-point locations. All geographic coordinates must be provided in WGS84 decimal format. It is strongly recommended to record the geographic coordinates in the FLMD in cases where the data file does not include geographic coordinates and the entire file consists of measurements collected at a single location. The FLMD Extractor can extract the geographic coordinates or bounding box coordinates from a CSV file following the CSV Reporting Format.|
+|Required, Recommended or Optional|optional|
+|Format|decimal degrees|
 
 ### Northwest Longitude Coordinate
 |Metadata Element|northwest_longitude_coordinate|
