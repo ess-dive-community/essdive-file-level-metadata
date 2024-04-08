@@ -11,13 +11,13 @@ Instructions for how to use this reporting format:
 Other documents:
 
 * [File-level metadata quick guide](flmd_quick_guide.md)   
-* [File-level metadata template](https://github.com/ess-dive-community/essdive-file-level-metadata/tree/3acd84067cf980484b4b86e95dbdcace42db3796/flmd_template.xlsx) 
+* [File-level metadata template](flmd_template.csv) 
 
-          - [Includes example template](https://github.com/ess-dive-community/essdive-file-level-metadata/blob/master/flmd_template_example.md)  
+          - [Includes example template](flmd_template_example.md)  
 
 * CSV Data Dictionary  
 
-          - Includes [instructions](CSV_dd/README.md), [template](CSV_dd/CSV_dd_template.xlsx), and [example](CSV_dd/csv_dd_example.md)
+          - Includes [instructions](CSV_dd/README.md), [template](CSV_dd/CSV_dd_template.csv), and [example](CSV_dd/csv_dd_example.md)
 
 ---  
 ## Updates in v1.0.0
