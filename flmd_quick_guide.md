@@ -36,7 +36,7 @@ Elements of the reporting format:
 |Metadata Element|file_description|
 |:----------------------------------------------------|:----------------------------------------------------|
 |Reporting Format Statement|A brief description of the file|
-|Reporting Format Definition|A brief description (minimum 30 characters) of the file and what distinguishes this file from other files in the data package. Include information about the type of data (images, observations, experimental, etc.) |
+|Reporting Format Definition|A brief description (minimum of 10 characters) of the file and what distinguishes this file from other files in the data package. Include information about the type of data (images, observations, experimental, etc.) |
 |Required, Recommended or Optional|required|
 |Format||
 
