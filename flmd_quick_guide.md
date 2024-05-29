@@ -65,7 +65,7 @@ Elements of the reporting format:
 |Metadata Element|column_or_row_name_position|
 |:----------------------------------------------------|:----------------------------------------------------|
 |Reporting Format Statement|Position of the column or row that contains the column or row names.|
-|Reporting Format Definition|Provide the row or column number that contains the header names. This field is not required if there are no rows or columns before the row/column names. If not included, it will be assumed that header names are in row 0 (horizontal orientation) or column 0 (vertical orientation). If there are rows/columns after the header names, note these using the header_rows field.|
+|Reporting Format Definition|Provide the row or column number that contains the header names. This field is not required if there are no rows or columns before the row/column names. If not included, it will be assumed that header names are in row 1 (horizontal orientation) or column 1 (vertical orientation). If there are rows/columns after the header names, note these using the header_rows field.|
 |Required, Recommended or Optional|optional|
 |Format|number|
 
