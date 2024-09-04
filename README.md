@@ -13,7 +13,7 @@ Other documents:
 * [File-level metadata quick guide](flmd_quick_guide.md)   
 * [File-level metadata template](flmd_template.csv) 
 
-          - [Includes example template](flmd_template_example.md)  
+          - [Includes example template](flmd_template_example.csv)  
 
 * CSV Data Dictionary  
 
@@ -29,7 +29,7 @@ The File-level Metadata reporting format was updated in April of 2024 to address
 * Adding variables to allow for better handling of header rows that do not contain variable information
   * The optional variables _header rows_ and _column or row name position_ can be used to provide the number of rows that occur either before or after variable names. Including these variables is important to increase the parsability of files with additional metadata rows that precede data entries. For more instruction on how to use these variables, please refer to our updated [File-level metadata reporting format instructions](flmd_instructions.md).
 * Adding standard reporting format keywords to be used in the _standard_ field
-  * The optional _standard_ keyword in the file-level metadata file can be used to declare a standard or format that a file follows. If a file uses an ESS-DIVE reporting format, we now recommend using the corresponding [FLMD standard name](https://github.com/ess-dive-community/essdive-file-level-metadata/blob/release-v1.1/RF_FLMD_Standard_Terms.csv).
+  * The optional _standard_ keyword in the file-level metadata file can be used to declare a standard or format that a file follows. If a file uses an ESS-DIVE reporting format, we now recommend using the corresponding [FLMD standard name](RF_FLMD_Standard_Terms.csv).
 * Modifying variable naming convention to snake case
   * The original FLMD field names used both underscores and capitalizations and did not follow a specific naming convention. In v2.0.0, we have updated the formatting of field names to follow snake case guidelines, for example File_Name -> file_name; Column_or_Row_Name -> column_or_row_name. No spelling or underscore placement has been revised. Our goal is to increase consistency and harmonize across the reporting formats. While templates and instructions have been updated to reflect this convention change, the original capitalization will still be accepted as long as spelling and use of underscores is consistent. 
 
