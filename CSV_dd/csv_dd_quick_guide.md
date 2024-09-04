@@ -50,10 +50,11 @@ Elements of the data dictionary:
 | Required, Recommended or Optional | recommended |
 
 ### Missing Value Code
-|Metadata Element|missing_value_code|
-|:----------------------------------------------------|:----------------------------------------------------|
-|Reporting Format Statement|Report missing value code|
-|Reporting Format Definition|Report missing value code for each column if applicable. For columns containing numeric data, use "-9999" as the missing value code. For columns containing character data, use "N/A" as the missing value code. If a missing value code is not applicable for a column, leave this entry blank.|
+
+| Metadata\_Element |missing_value_code|
+| :--- | :--- |
+|Reporting format statement| Report missing value code. |
+|Reporting format definition|Report missing value code for each column if applicable. For columns containing numeric data, use "-9999" as the missing value code. For columns containing character data, use "N/A" as the missing value code. If a missing value code is not applicable for a column, leave this entry blank.|
 |Required, Recommended or Optional|optional|
-|Format||
+
 
