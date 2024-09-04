@@ -3,12 +3,12 @@
 Elements of the reporting format:  
 * [file_name](#file-name)  
 * [file_description](#file-description)  
-* [standard](#standard)  
+* [standard](#standard)
+* [file_version](#file_version)
 * [data_orientation](#data-orientation)
 * [header_rows](#header-rows)
 * [column_or_row_name_position](#column-or-row-name-position)
 * [notes](#notes)  
- 
 
 ---  
 
@@ -32,7 +32,7 @@ Elements of the reporting format:
 |Metadata Element|standard|
 |:----------------------------------------------------|:----------------------------------------------------|
 |Reporting Format Statement|standard applied to the data file.|
-|Reporting Format Definition|Identify if an ESS-DIVE Reporting Format or any other data or metadata standard was applied to the data file. Standard names for the ESS-DIVE reporting formats are available in the Standard FLMD Term List.|
+|Reporting Format Definition|Identify if an ESS-DIVE Reporting Format or any other data or metadata standard was applied to the data file. Standard names for the ESS-DIVE reporting formats are available in the [Standard FLMD Term List](https://github.com/ess-dive-community/essdive-file-level-metadata/blob/release-v1.1/RF_FLMD_terms.csv).| 
 |Required, Recommended or Optional|strongly recommended|
 |Format||
 
@@ -58,7 +58,7 @@ Elements of the reporting format:
 |:----------------------------------------------------|:----------------------------------------------------|
 |Reporting Format Statement|Number of header rows.|
 |Reporting Format Definition|Provide the number of header rows that occur _after_ the column or row names in a file and _before_ the data begins. This field is marked as optional, but is required if the dataset has multiple header rows.|
-|Required, Recommended or Optional|optional|
+|Required, Recommended or Optional|optional, **required if dataset has multiple header rows**|
 |Format|number|
 
 ### Column or Row Name Position
@@ -66,7 +66,7 @@ Elements of the reporting format:
 |:----------------------------------------------------|:----------------------------------------------------|
 |Reporting Format Statement|Position of the column or row that contains the column or row names.|
 |Reporting Format Definition|Provide the row or column number that contains the header names. This field is not required if there are no rows or columns before the row/column names. If not included, it will be assumed that header names are in row 1 (horizontal orientation) or column 1 (vertical orientation). If there are rows/columns after the header names, note these using the header_rows field.|
-|Required, Recommended or Optional|optional|
+|Required, Recommended or Optional|optional, **required if rows or columns are provided before the row/column names**|
 |Format|number|
 
 ### Notes  
