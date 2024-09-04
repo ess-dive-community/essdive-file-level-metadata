@@ -2,11 +2,12 @@
 
 Elements of the data dictionary:
 
-* [column_or_row_name](csv_dd_quick_guide.md#column-or-row-name)  
-* [unit](csv_dd_quick_guide.md#unit)  
-* [definition](csv_dd_quick_guide.md#definition)  
-* [column_or_row_long_name](csv_dd_quick_guide.md#column-or-row-long-name)  
-* [data_type](csv_dd_quick_guide.md#data-type)  
+* [column_or_row_name](#column-or-row-name)  
+* [unit](#unit)  
+* [definition](#definition)  
+* [column_or_row_long_name](#column-or-row-long-name)  
+* [data_type](#data-type)
+* [missing_value_code](#missing-value-code)
 
 ## Column or Row Name
 
@@ -47,4 +48,12 @@ Elements of the data dictionary:
 | Reporting format statement | Define the data type. |
 | Reporting format definition | Define the data type for each column \(e.g. text, numeric, date\) |
 | Required, Recommended or Optional | recommended |
+
+### Missing Value Code
+|Metadata Element|missing_value_code|
+|:----------------------------------------------------|:----------------------------------------------------|
+|Reporting Format Statement|Report missing value code|
+|Reporting Format Definition|Report missing value code for each column if applicable. For columns containing numeric data, use "-9999" as the missing value code. For columns containing character data, use "N/A" as the missing value code. If a missing value code is not applicable for a column, leave this entry blank.|
+|Required, Recommended or Optional|optional|
+|Format||
 
