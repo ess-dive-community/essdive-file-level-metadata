@@ -1,10 +1,10 @@
-# Quick guide for ESS-DIVE File-level Metadata Reporting Format
+# Quick guide for ESS-DIVE File Level Metadata Reporting Format
 
 Elements of the reporting format:  
 * [file_name](#file-name)  
 * [file_description](#file-description)  
 * [standard](#standard)
-* [file_version](#file_version)
+* [file_version](#file-version)
 * [data_orientation](#data-orientation)
 * [header_rows](#header-rows)
 * [column_or_row_name_position](#column-or-row-name-position)
