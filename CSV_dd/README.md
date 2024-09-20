@@ -2,7 +2,7 @@
 
 ## Instructions
 
-1. Create a CSV data dictionary using the [CSV\_dd\_template](https://github.com/ess-dive-community/essdive-file-level-metadata/blob/master/CSV_dd/CSV_dd_template.xlsx).  You can create either:  
+1. Create a CSV data dictionary using the [CSV\_dd\_template](CSV_dd_template.csv).  You can create either:  
 &nbsp;&nbsp;&nbsp;a. One data dictionary for each data file or  
 &nbsp;&nbsp;&nbsp;b. One data dictionary representing all data files in your dataset    
 
@@ -26,10 +26,11 @@ For each variable provide the following:
 * Column or Row Name  
 * Unit  
 * Definition  
-* Column or Row Long Name    
-* Data Type  
+* Column or Row Long Name
+* Data Type
+* Missing Value Code 
 
 **Notes**  
 
-Following the recommended format and structure of the CSV Reporting Format will facilitate File-level Metadata extraction of some fields using the [File Level Metadata Extractor](https://code.ornl.gov/ngee-arctic/ess-dive-meta).
+Following the recommended format and structure of the CSV Reporting Format will facilitate File Level Metadata extraction of some fields using the [File Level Metadata Extractor](https://code.ornl.gov/ngee-arctic/ess-dive-meta).
 
